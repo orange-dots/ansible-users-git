@@ -1,0 +1,8 @@
+---
+
+- include: install.yml
+  tags: ['development', 'install', 'git', 'git-install'] 
+  
+- include: config.yml
+  tags: ['development', 'config', 'git', 'git-config']
+

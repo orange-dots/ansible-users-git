@@ -1,0 +1,19 @@
+---
+
+# Extends the user module with git user management 
+#
+# users: 
+#   - name: Foo Bar
+#     username: foobar
+#     authorized_keys: []
+#
+#     git: 
+#       user: 
+#         name: Foo Baar
+#         email: foobar@foo.bar
+#       github: 
+#         user: foobar
+#  
+
+# package (version) to install 
+git_packages: git-core
